@@ -1,0 +1,61 @@
+KYC_MANAGER_ROLE = 0x6f35daacd116f0f629c42d5459fd6842d505964e6828899d889573dc5bc51cf8
+ADMIN_ROLE = 0xe9e3832babc3e86b4159672c953a9406fb6d25f78e6668120efccd0ae921e0f4
+
+
+
+
+
+mjhy naw ap n ERC3643 standard ko use krtay hoay RWA k lia smart 
+contract likh k dyna ha solidity main jis main main nay user byshak 
+wo seller ya buyer us ki kyc krwani ha then wo apna rwa generate kr 
+sky i think jo factory contract k through possibe ha aur phr us ko list 
+kr skta ha sell krna k  lia ya bid kar na k lia aur wo aik time day ga then 
+us k bad wo unlist ho jay ge aur jo highest bidder ho ga us ki currency hm 
+apnay pass escrow main rakh layn gay or agr koi highest bid sy kam bid krta 
+ha to ussy error through krna ha aur sath main is ka alag function bhe bnanan 
+ha aur auction id aur sath main sale id dono ko alag alag manage krna ha aur 
+han is main fractional rwa ka bhe concept hona chya 
+
+
+is k lia aik contract nai bnana multiple contract hona chya jasa k excrow ka alag
+factory ka alag baki ap khud dakh layn mjhy ERC3643 use krna ha standard aur mjhy 
+in sb ka code likh k do list for sale aur list for auction manage ki ha aur sath 
+main buy aur bid ko bhe manage kia ha ?? or baki sari view function frontend pay 
+show krwana k lia wo bhe likh k do aur sath main ya confirm kar do k user ki kyc 
+kis trha krwayn gay aur jab aik bar kyc ho jay ge kya admin us user ko block bhe 
+kr skta ha ESCROW main native currency bhe manage kr k do aur ya jo payment ha 
+after 14 days automatic transfer ho seller ko ya jo auction k lia list kr rha 
+aur ya days dynamic hona chya qk scenario ya user jab buy kr lyta ha ya jab wo 
+highest bid kr lyta ha to RWAtoken to ussy transfer ho jata ha lekin physically 
+bhe ussy ya recieve honi ha us ko bhe manage kr k do aur agr koi despute ata h 
+ussy bhe manage kr k do aur third is main meta data mtlb image detail bhe manage 
+kr k do ya meri sari requirements ha mjhy metadata manage krna k ERC3643 e use 
+krna na ERC1155 krna ha aur na e ERC721 krna ha to leahza us lehaz sy manage kr 
+solidity ka pora code likh k do 
+
+
+meray pass aik scenario ha mjhy ya cheezain chya 
+1- her user apni kyc krwayn ga mtlb frontend sy signup kryn ga aur kyc krwayn ga
+2- user create RWA token aur is ki  fractional ownership k sath hona chya 
+3- user RWA ko list kr skta ha  for sale aur  cencell bhe kar skta sale ko aur 
+payment method sirf usdt ha   
+4- user RWA ko list auction kay lia bhe list kr skta aur inital bid value bhe dy ga
+aur dosray user a kar bid kar skty aur bid hmesha last highest bid sy zayada honi chya 
+aur jab last highbid sy kry to last higest bidder ki amount ussy return ho jay 
+new highest bid a jayn 
+4- buy sell aur auction bid scenario k lia payment escrow smart contract sy manage ki 
+jay aur payment given specific time jo owner ki trf sy set ki gai tab tk rhy aur jab 
+wo time complete ho jay to wo transfer ho jay ussy amount jo seller ya auctionor ha 
+ya scenario is lia ha qk real main physicallybhe ussy ya RWA art recieve honi ha 
+aur jab buyer ya highest bidder ki trf sy confirm ho then seller aur auctionor ko payment 
+release ho jani chya agr buyer ya bidder nai krtay to us specific time tk wait kia 
+jay then payment seller aur auctionor ko automatic release ho jay 
+5- aur mjhy frontedn pay dikhana k lia proper her cheez ka alag alag view function 
+hona chya 
+6- auction aur sale ko alag alag manage kia jay 
+7- aur ya condition ha RWA k lia ERC3643 use krna ha aur sath main us ka 
+metadata like image detail wagerah bhe manage krni zaroori ha 
+8- aur koi ERC721 ya ERC1155 standard use nai krna 
+9- code professionally aur pora hona chya with all necessary security 
+10- agr koi despute ata ha to ussy bhe escrow main manage kia jay k auctionId ya
+saleId dy to jo bhe decision platform owner lay us k behalf pay ho jay 
