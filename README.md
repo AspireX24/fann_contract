@@ -20,15 +20,27 @@ USDT Address : 0xb9a0b25b041b950686b78b68e7156b8f38141f80
 -----------------------------------------------------------------------------------------
 
 testing Flow
+
 1- verify seller buyer from kyc contract 
+
 2- generate rwa token from factory contract
+
 3- mint from rwstoken according to share also add 18 zero suppose 100 share then write 100000000000000000000
+
 4- create usdt for testing purpose  use deposit function add six zero after value suppose you want 100 usdt then add 100000000 (it is only for testnet testing)
+
 5- verify marketplace address from kyc contract using verifyUser function (one time)
+
 6- approve RWAToken to MarketPlace Contract Address (RWAToken wo wala jo wo parameter main pass kr rha)
+
 7- createListing(IERC20 RWAToken,uint256 share, uint256 price)
+
 8- approve USDT to marketplace smart contract address amount equal to price
+
 9- purchase(uint256 saleId)
+
 10- markShipped(uint256 saleId, string calldata trackingInfo) seller call function
+
 11- confirmDelivery(uint256 saleId)  buyer call function
+
 12- cancelListing(uint256 saleId) seller can cencell the listing agr kissi nay buy nai kia 
