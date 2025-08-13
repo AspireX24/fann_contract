@@ -1,3 +1,4 @@
 {
-  "RWATokenFactoryModule#RWATokenFactory": "0x7AfCE1424f81a8faA7BbB6179AF3682aAb6a0864"
+  "SaleEscrowModule#SaleEscrow": "0x220878008d3eb7c94Afda696d2057462df66fdd8",
+  "SaleMarketplaceModule#SaleMarketplace": "0x6d8d9E120f4FED9c441CF14bAf7B254425d3dD3c"
 }
